@@ -34,7 +34,7 @@ outputs:
       "Either 'true' or 'false' depending on whether the 'latest' tag was
       created"
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'lib/index.js'
 branding:
   icon: 'tag'
